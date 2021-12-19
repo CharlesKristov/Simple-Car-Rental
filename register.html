@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caroline Rental|Home</title>
+    <link rel="stylesheet" href="carolinerental.css">
+    <script src="validasi.js"></script>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <img src="./images/logo1.gif" alt="logo1" width="170px" height="80px"></a>
+        </div>
+
+        <div class="kanan">
+            <ul>
+                <li>
+                    <a href="login.html"><button> <span>Login</span></button></a>
+                </li>
+                <li>
+                    <a href="register.html"><button> <span>Register</button></span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <a class="active" href="carolinerental.html">Home</a>
+        <div class="dropdown">
+             <button class="dropbtn">Product <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="product.html">Family Car</a>
+              <a href="product.html">Luxury Car</a>
+              <a href="product.html">Commercial Car</a>
+            </div>
+          </div> 
+        <a href="contact.html">Contact</a>
+    </div>
+
+
+
+    <h2>Register</h2>
+
+    <div class="Regis">
+        <div class="atasIsi">
+
+        <h3>Name: </h3>
+        <br>
+        <input type="text" id="regisNama">
+        <br>
+        <h3>Email: </h3>
+        <br>
+        <input type="text" id="regisEmail">
+        <br>
+        <h3>Gender: </h3>
+        <input type="radio" name="Gender" id="male"> <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="female"> <label for="Female">Female</label>
+
+        <h3>City: </h3>
+        <br>
+        <select name="City" id="city">
+            <option value="Jakarta">Jakarta</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Jogja">Jogja</option>
+        </select>
+
+        <h3>Address: </h3>
+        <br>
+        <textarea name="Address" id="regisAdress" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit" onclick="cekRegister()">Register</button>
+
+    </div>
+
+    </div>
+
+
+
+    <div class="footer">
+        <div class="footerWrapper">
+            <ul class="socialLink">
+              <li><a href="http://instagram.com" target="_blank"> <img src="./images/instagram.png" alt="ig" srcset=""></a></li>
+              <li><a href="http://youtube.com" target="_blank"> <img src="./images/youtube.png" alt="yt" srcset=""></a></li>
+              <li><a href="http://twitter.com" target="_blank"><img src="./images/twitter.png" alt="tw" srcset=""></a></li>
+              <li><a href="http://facebook.com" target="_blank"><img src="./images/facebook.png" alt="fb" srcset=""></a></li>
+            </ul>
+              <form class="subscribe">
+                    <h2>Subscribe Our Newsletter</h2>
+                    <input type="text" placeholder="Your email">
+                    <br>
+                    <button>Subscribe</button>
+                  </form>
+        </div>
+          <p class="copy">
+              Copyright 2020 by Charles Christopher
+          </p>
+  
+      </div>
+  
+  
+  </body>
+  </html>
